@@ -1,6 +1,7 @@
 import React from 'react';
 import './JobPortal.css'; // Assuming you have a separate CSS file
 
+
 const JobPortal = () => {
     return (
         <div style={{ backgroundColor: 'mediumaquamarine', textAlign: 'center' }}>
@@ -8,12 +9,12 @@ const JobPortal = () => {
                 <tr>
                     <td><img src="logo for job portal.png" alt="Job Portal" width="50px" height="50px" /></td>
                     <td><h1 style={{ textAlign: 'left', color: 'rgb(151, 56, 56)' }}>Job Portal</h1></td>
-                    <td><h5 style={{ textAlign: 'center' }}><a href="home.js">HOME</a></h5></td>
-                    <td><h5 style={{ textAlign: 'center' }}><a href="about.html">ABOUT</a></h5></td>
+                    <td><h5 style={{ textAlign: 'center' }}><a href="Home">HOME</a></h5></td>
+                    <td><h5 style={{ textAlign: 'center' }}><a href="About">ABOUT</a></h5></td>
                     <td><h5 style={{ textAlign: 'center' }}><a href="Jobseeker.html">JOBS</a></h5></td>
                     <td><h5 style={{ textAlign: 'center' }}><a href="Employeer.html">Employer</a></h5></td>
-                    <td><h5 style={{ textAlign: 'center' }}><a href="Signup.js">Sign Up</a></h5></td>
-                    <td><h5 style={{ textAlign: 'center' }}><a href="signin.html">Sign In</a></h5></td>
+                    <td><h5 style={{ textAlign: 'center' }}><a href="Signup">Sign Up</a></h5></td>
+                    <td><h5 style={{ textAlign: 'center' }}><a href="/">Sign In</a></h5></td>
                 </tr>
             </table>
 
@@ -53,16 +54,16 @@ const JobPortal = () => {
                 <hr />
                 <table border="0" width="100%" height="100%">
                     <tr>
-                        <td><h5 style={{ textAlign: 'left' }}><a href="home.html">HOME</a></h5></td>
+                        <td><h5 style={{ textAlign: 'left' }}><a href="Home">HOME</a></h5></td>
                         <td colSpan="3"><h2 style={{ textAlign: 'center' }}>JOBS</h2></td>
                         <td><h5 style={{ textAlign: 'right' }}>SOCIAL LINKS</h5></td>
                     </tr>
                     <tr>
-                        <td><h5 style={{ textAlign: 'left' }}><a href="about.html">ABOUT</a></h5></td>
+                        <td><h5 style={{ textAlign: 'left' }}><a href="About">ABOUT</a></h5></td>
                         <td rowSpan="3">
                             <p style={{ textAlign: 'center' }}>
-                                "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.
-                                The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it."
+                                "Your work is going to fill a large part of your life, and <br />the only way to be truly satisfied is to do what you believe is great work.<br />
+                                The only way to do great work is to love what you do.<br /> If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart,<br /> you'll know when you find it."
                             </p>
                         </td>
                         <td><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank" rel="noopener noreferrer"><img src="Instagram.jpg" alt="Instagram" width="50px" height="50px" /></a></td>
@@ -76,10 +77,10 @@ const JobPortal = () => {
                         <td><h5 style={{ textAlign: 'left' }}><a href="Employeer.html">Employer</a></h5></td>
                     </tr>
                     <tr>
-                        <td><h5 style={{ textAlign: 'left' }}><a href="signup.html">Sign Up</a></h5></td>
+                        <td><h5 style={{ textAlign: 'left' }}><a href="Signup">Sign Up</a></h5></td>
                     </tr>
                     <tr>
-                        <td><h5 style={{ textAlign: 'left' }}><a href="signin.html">Sign In</a></h5></td>
+                        <td><h5 style={{ textAlign: 'left' }}><a href="/">Sign In</a></h5></td>
                     </tr>
                     <tr>
                         <td><img src="logo for job portal.png" alt="Job Portal" width="50px" height="50px" /></td>
